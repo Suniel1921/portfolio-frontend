@@ -36,7 +36,7 @@ const About = () => {
                 <h2>PHONE</h2>
                 <p className='subPara'>+977 9807865665</p>
                 <h2>EMAIL</h2>
-                <p className='subPara'>anielthakur1921@gmail.com</p>
+                <p className='subPara'>sunielsharma1921@gmail.com</p>
               </div>
 
               {/* <div className="btns">
