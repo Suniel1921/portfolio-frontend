@@ -6,7 +6,7 @@ import PortfolioCard from '../components/PortfolioCard';
 const Portfolio = () => {
 
     const [data, setData] = useState(PortfolioData);
-    console.log(data)
+    // console.log(data)
 
 
   return (
