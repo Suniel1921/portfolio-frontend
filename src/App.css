@@ -1237,6 +1237,7 @@ color: black;
 .btn {
   width: 108%;  /*****kam baki xa ohh keta yaha****/
 }
+
 .input-row input {
   width: 50%;
 }
@@ -1252,12 +1253,23 @@ color: black;
   flex-basis: calc(50% - 2rem);
 }
 
+.input-row {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.input-row input {
+  width: 100%;
+}
+
 }
 
 
 
 
 @media screen and (max-width:880px) {
+
   .cardsContainer {
     min-height: 181vh;
     overflow: hidden;
@@ -1667,9 +1679,6 @@ color: black;
 .Me_center .subPara {
   font-size: 11px;
 }
-
-
-
 
 }
 
