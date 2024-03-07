@@ -1,17 +1,19 @@
 import React, { useState } from 'react';
 import { AiOutlineHeart } from 'react-icons/ai';
+import {Link} from 'react-router-dom'
 
 function PopUp({ data, onClose }) {
   return (
     <div className="popup">
-      <div className="popup-content">
-        <img className='portfolioImg' src={data.image} alt="" />
+      <div className="popup-content"> 
+        <img className='portfolioImg' src={data.image} alt="" /> 
         <div className="popData">
         <p>icons</p>
         <h2>{data.name}</h2>
         <p>{data.description}</p>
+        <h4><Link to={data.link} target='_blank'>Link</Link></h4>
         </div>
-      
+        
         <button onClick={onClose}>Close</button>
       </div>
     </div>
