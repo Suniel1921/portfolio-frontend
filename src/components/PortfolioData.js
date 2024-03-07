@@ -12,18 +12,21 @@ const PortfolioData = [
         image: 'img/portfolio-02.jpg',
         name: 'App for tehnology & services',
         category: 'Android Development',
+        link: "https://github.com/Suniel1921",
     },
     {
         id: 3,
         image: 'img/portfolio-03.jpg',
         name: 'The services provide for technology.',
         category: 'Programming',
+        link: "https://github.com/Suniel1921",
     },
     {
         id: 4,
         image: 'img/portfolio-04.jpg',
         name: 'Logo desing creativity and application ',
         category: 'Design',
+        link: "https://github.com/Suniel1921",
     },
     {
         id: 5,
@@ -38,6 +41,7 @@ const PortfolioData = [
         image: 'img/portfolio-06.jpg',
         name: 'Hack the world Black Hat Hacker',
         category: 'Ethical Hacking',
+        link: "https://github.com/Suniel1921",
     },
 ]
 
