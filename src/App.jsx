@@ -78,18 +78,18 @@ const App = () => {
         <div className="containersssss">
           <Router>
             <Routes>
-            <Route path='/' element={<Layout/>}>
-            <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              {/* <Route path="/services" element={<Services />} /> */}
-              <Route path="/register" element={<Register />} />
-              <Route path="/login" element={<Login />} />
-              {/* private route */}
-              <Route path='/dashboard' element={<PrivateRoute/>}>
-              <Route path='blog' element={<Blog/>}/>
+              <Route path='/' element={<Layout />}>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                {/* <Route path="/services" element={<Services />} /> */}
+                <Route path="/register" element={<Register />} />
+                <Route path="/login" element={<Login />} />
+                {/* private route */}
+                <Route path='/dashboard' element={<PrivateRoute />}>
+                  <Route path='blog' element={<Blog />} />
 
+                </Route>
               </Route>
-            </Route>
             </Routes>
             <Toaster />
           </Router>

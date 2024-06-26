@@ -25,8 +25,8 @@ const About = () => {
             <h3><strong className='strong'>ABOUT ME</strong></h3>
             <h2 className='heading'>Journey from Intern to Developer</h2>
             {/* <h1 className='heading'>I'm a Freelancer, I work <br /> from Anywhere</h1> */}
-            <p className='subPara'>I'm a full-stack web developer who's spent three months as an intern and six months working at AavaTechNepal. During my time there, I learned how to create both the parts of a website you see (the front-end) and the behind-the-scenes stuff (the back-end). I got to work on different projects and even teamed up with different people to make sure everything worked smoothly.</p> <br />
-            <p className='subPara'>I really care about making websites that are easy to use and work well. I also keep up with the latest tech trends to make sure I'm using the best tools. My internship and work experience at AavaTechnepal have given me a solid foundation in web development, and I'm excited to keep using my skills to help with cool projects in the future.</p>
+            <p className='subPara'>AavaTechNepal: Starting as a backend developer at AavaTechNepal, I spent three months interning and six months working. I learned to create both the visible parts of websites and the hidden technical parts. Working on diverse projects taught me how to ensure websites are user-friendly and work seamlessly with different teams.</p> <br />
+            <p className='subPara'>Nepal Tech: Now at Nepal Tech as a MERN stack full-stack developer, I apply my skills to create impressive web applications. I focus on using the latest tech and best practices to ensure our projects are cutting-edge. I'm excited to continue pushing the boundaries of web development and contributing to innovative projects.</p>
 
             <div className="myDetails">
 

@@ -22,7 +22,7 @@ const MySkill = () => {
 
           </div>
 
-          <div className="myskill_right">
+          <div className="myskill_right"> 
 
             <div className='circle'>
               <img className='nodejs' src="/language/nodejs2.png" alt="" />
@@ -42,9 +42,6 @@ const MySkill = () => {
                 <img className='js' src="/language/js.png" alt="" />
                 <img className='bootstrap' src="/language/bootstrap.png" alt="" />
               </div>
-
-
-
             </div>
           </div>
         </div>

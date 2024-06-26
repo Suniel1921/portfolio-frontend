@@ -15,7 +15,7 @@ const Card = () => {
         </div>
           <div className='cardContents'>
             <h2>WELCOME TO MY WORLD</h2>
-            <p className='subPara'>I'm a young tech enthusiast who thrives on taking risks, born and raised in <br /> Gaushala-Mahottari, with a passion for web development.</p>
+            <p className='subPara'>I'm a young tech enthusiast who thrives on taking risks, born and raised in <br /> Gaushala,Mahottari,Nepal with a passion for web development.</p>
           </div>
 
 
